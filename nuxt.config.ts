@@ -1,9 +1,6 @@
 export default {
     // Global page headers: https://go.nuxtjs.dev/config-head
     target: 'static',
-    router: {
-        base: '/portfolio/'
-    },
     server: {
         host: (process.env.NODE_ENV === 'production' ? '0.0.0.0' : '127.0.0.1')
     },
