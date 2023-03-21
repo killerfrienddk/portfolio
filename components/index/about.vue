@@ -11,7 +11,7 @@
                   Download CV · <a download class="text-orange-400 hover:text-orange-500 underline" href="/cvs/CV-Simon-English.pdf">English</a> · <a download class="text-orange-400 hover:text-orange-500 underline" href="/cvs/CV-Simon-Danish.pdf">Danish</a>
                </div>
                <div>
-                   <a href="mailto:sh2@live.dk" class="btn btn-orange font-bold !rounded-sm">Contact Me</a>
+                   <a href="#contact" class="btn btn-orange font-bold !rounded-sm">Contact Me</a>
                </div>
            </div>
            <div class="w-1/2">

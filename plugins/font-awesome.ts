@@ -39,8 +39,9 @@ library.add(falPlus, falExclamationCircle, falCheckCircle, falFilter, falTools);
 
 /*solid*/
 import {faBars} from "@fortawesome/free-solid-svg-icons/faBars";
+import {faEnvelope} from "@fortawesome/free-solid-svg-icons/faEnvelope";
 
-library.add(faBars);
+library.add(faBars, faEnvelope);
 
 /*brands*/
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons/faLinkedin";
