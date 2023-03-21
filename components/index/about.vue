@@ -15,7 +15,7 @@
                </div>
            </div>
            <div class="w-1/2">
-               <img src="~/assets/images/myResume.jpg"/>
+               <img src="~/static/images/myResume.jpg"/>
            </div>
        </div>
     </panel-component>

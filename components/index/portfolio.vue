@@ -24,7 +24,7 @@
         <div class="grid">
             <div>
                 <a href="https://login.flexpos.com/login">
-                    <img class="w-full" src="~/assets/images/portfolioImages/backoffice.jpg"/>
+                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Backoffice</div>
                         <span>
@@ -35,7 +35,7 @@
             </div>
             <div>
                 <a href="https://profilshop.3dconfig.dk/Default/RailingCalculator?lang=6">
-                    <img class="w-full" src="~/assets/images/portfolioImages/profilshop.jpg"/>
+                    <img class="w-full" src="~/static/images/portfolioImages/profilshop.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Cembrit Roof Calculator</div>
                         <span>3d-empire - Project for calculating roofs.</span>
@@ -44,7 +44,7 @@
             </div>
             <div>
                 <a href="https://cb.3dconfig.dk/">
-                    <img class="w-full" src="~/assets/images/portfolioImages/cembrit.jpg"/>
+                    <img class="w-full" src="~/static/images/portfolioImages/cembrit.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Profilshop Railing Calculator</div>
                         <span>
