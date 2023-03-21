@@ -28,7 +28,7 @@
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Backoffice</div>
                         <span>
-                        Flexpos - backend website for POS systems.
+                        Flexpos - Backend website for POS systems.
                     </span>
                     </div>
                 </a>
@@ -38,7 +38,7 @@
                     <img class="w-full" src="~/assets/images/portfolioImages/profilshop.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Cembrit Roof Calculator</div>
-                        <span>3d-empire - project for calculating roofs.</span>
+                        <span>3d-empire - Project for calculating roofs.</span>
                     </div>
                 </a>
             </div>
@@ -48,7 +48,7 @@
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Profilshop Railing Calculator</div>
                         <span>
-                            3d-empire - project for calculating railings.
+                            3d-empire - Project for calculating railings.
                         </span>
                     </div>
                 </a>
