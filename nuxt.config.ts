@@ -27,7 +27,6 @@ export default {
 
     // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
     plugins: [
-        {src: '~/plugins/font-awesome.ts', mode: 'client'},
         {src: '~/plugins/constants.ts'},
         {src: '~/plugins/guid.ts'},
     ],
