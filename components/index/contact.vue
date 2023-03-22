@@ -9,8 +9,8 @@
                 <h5 class="text-2xl font-bold text-orange-400">Contact Me</h5>
                 <h2 class="text-4xl font-bold">Reach out to me</h2>
                 <div>
-                    <a :href="$const.linkedinLink"><font-awesome-icon icon="fa-brands fa-linkedin" /></a>
-                    <a class="ml-1" href="mailto:sh2@live.dk"><font-awesome-icon icon="fa-solid fa-envelope" /></a>
+                    <a target="_blank" :href="$const.linkedinLink"><client-only><font-awesome-icon icon="fa-brands fa-linkedin" /></client-only></a>
+                    <a class="ml-1" href="mailto:sh2@live.dk"><client-only><font-awesome-icon icon="fa-solid fa-envelope" /></client-only></a>
                 </div>
             </div>
 

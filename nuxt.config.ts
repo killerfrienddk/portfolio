@@ -43,7 +43,6 @@ export default {
         '@nuxtjs/composition-api/module',
     ],
 
-
     // Modules: https://go.nuxtjs.dev/config-modules
     modules: [
         'google-fonts',
