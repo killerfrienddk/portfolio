@@ -19,8 +19,8 @@
                 </timeline>
                 <timeline-separator title="Education"/>
                 <timeline>
-                    <timeline-point start-date="2019" end-date="2021" title="3D College Denmark" detail="Multimedia Integrator, Grade: A"/>
-                    <timeline-point start-date="2016" end-date="2018" title="3D College Denmark" detail="Web Integrator, Grade: A"/>
+                    <timeline-point start-date="2019" end-date="2021" title="3D College Denmark" detail="Multimedia Integrator, Grade: A/12"/>
+                    <timeline-point start-date="2016" end-date="2018" title="3D College Denmark" detail="Web Integrator, Grade: A/12"/>
                 </timeline>
             </div>
         </div>
