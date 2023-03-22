@@ -38,7 +38,7 @@
                     <img class="w-full" src="~/static/images/portfolioImages/profilshop.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Cembrit Roof Calculator</div>
-                        <span>3d-empire - Roof Calculating.</span>
+                        <span>3d-empire - Roof Calculator.</span>
                     </div>
                 </a>
             </div>
@@ -48,7 +48,7 @@
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Profilshop Railing Calculator</div>
                         <span>
-                            3d-empire - Railing Calculating.
+                            3d-empire - Railing Calculator.
                         </span>
                     </div>
                 </a>
