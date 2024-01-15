@@ -23,7 +23,7 @@ export default {
     methods: {
         getDate() {
             let year = this.$moment().year();
-            this.date = year === 2023 ? "" : "-" + year;
+            this.date = year === 2023 ? "" : "2023-" + year;
         }
     },
     async mounted() {
