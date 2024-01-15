@@ -58,9 +58,7 @@ export default {
         },
         getDatesCustom(startDate, endDate) {
             const newStartDate = this.$moment(startDate);
-            console.log(this.$moment(endDate || this.$moment()))
             const newEndDate = this.$moment(endDate || this.$moment()).add(1, 'month').endOf('month');
-            console.log(newEndDate)
             const duration = this.$moment.duration(newEndDate.diff(newStartDate));
 
             const years = duration.years();
