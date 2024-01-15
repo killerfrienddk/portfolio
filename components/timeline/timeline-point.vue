@@ -64,6 +64,7 @@ export default {
             const years = duration.years();
             const months = duration.months();
 
+            if (years === 0) return months + ' mos';
             return years + ' yr ' + months + ' mos'
         },
     }
