@@ -34,6 +34,17 @@
                 </a>
             </div>
             <div>
+                <a href="https://skat.dk/erhverv/nye-krav-til-digital-salgsregistrering-for-visse-brancher-i-2024/for-leverandoerer-system-til-digital-salgsregistrering">
+                    <!--                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>-->
+                    <div class="card-bottom px-6 py-4">
+                        <div class="font-bold text-xl">SAF-T</div>
+                        <span>
+                        <b>Amero</b> - Created the system for the new laws from the danish government.
+                    </span>
+                    </div>
+                </a>
+            </div>
+            <div>
                 <a href="https://event-orders.flexpos.com">
 <!--                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>-->
                     <div class="card-bottom px-6 py-4">
