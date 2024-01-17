@@ -25,7 +25,7 @@ ul {
 </style>
 
 <template>
-    <nav class="flex justify-between mt-6 p-8 py-2">
+    <nav class="flex justify-between mt-6 px-7 py-2">
         <!--            <button class="px-4">
                     <font-awesome-icon class="text-white" size="lg" icon="fa-solid fa-bars"/>
                 </button>-->

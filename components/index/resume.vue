@@ -1,8 +1,4 @@
-﻿<style scoped lang="scss">
-
-</style>
-
-<template>
+﻿<template>
     <panel-component id="resume">
         <div class="w-full mb-6 text-center">
             <h5 class="text-2xl font-bold text-orange-400">My Resume</h5>

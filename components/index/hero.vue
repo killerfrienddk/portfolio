@@ -1,8 +1,4 @@
-﻿<style scoped lang="scss">
-
-</style>
-
-<template>
+﻿<template>
     <panel-component id="home">
         <div class="flex justify-between">
             <div class="space-y-6">

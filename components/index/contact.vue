@@ -1,8 +1,4 @@
-﻿<style scoped lang="scss">
-
-</style>
-
-<template>
+﻿<template>
     <panel-component id="contact" padding="null">
         <div class="flex justify-between p-7">
             <div class="w-1/2 space-y-6">
