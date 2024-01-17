@@ -3,12 +3,12 @@
         <div class="w-full mb-6 text-center">
             <h5 class="text-2xl font-bold text-orange-400">My Resume</h5>
         </div>
-        <div class="flex justify-between">
-            <div class="w-3/5 space-y-5">
+        <div class="flex md:flex-row flex-col space-y-8">
+            <div class="md:w-3/5 w-full space-y-5">
                 <h5 class="text-1xl font-extralight text-yellow-600">EXPERIENCE</h5>
                 <h2 class="text-4xl font-bold">More than {{getYears()}} years <span class="block clear-both"></span> experience as a <span class="block clear-both"></span><span class="text-orange-400">Software Developer</span></h2>
             </div>
-            <div class="w-2/5">
+            <div class="md:w-2/5 w-full">
                 <timeline>
                     <timeline-point start-date="12-04-2023" :date-moment="true" title="Full Stack Developer" detail="Amero ApS · Full-time · Hybrid"/>
                     <timeline-point start-date="10-06-2021" end-date="12-04-2023" :date-moment="true" title="Full Stack Developer(Merged with Amero)" detail="FlexPOS ApS · Full-time · Hybrid"/>

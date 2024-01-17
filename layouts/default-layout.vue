@@ -1,6 +1,6 @@
 ﻿<template>
     <div class="min-h-screen">
-        <div class="container mx-auto w-[60rem]">
+        <div class="container lg:w-[60rem] w-full mx-auto">
             <default-nav/>
             <main>
                 <Nuxt/>

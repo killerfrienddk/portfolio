@@ -12,11 +12,18 @@
         font-size: 12px;
     }
 }
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+    }
+}
+
 </style>
 
 <template>
     <div id="portfolio">
-        <div class="flex mt-10">
+        <div class="mt-6 lg:mt-10">
             <div class="w-full mb-6 text-center">
                 <h5 class="text-2xl font-bold text-orange-400">My Portfolio</h5>
             </div>

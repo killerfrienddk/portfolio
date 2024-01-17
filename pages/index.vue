@@ -1,15 +1,11 @@
-﻿<style scoped lang="scss">
-
-</style>
-
-<template>
+﻿<template>
     <div>
         <about/>
         <resume/>
         <portfolio/>
         <contact/>
         <copyright/>
-        <div class="w-full mt-10"></div>
+        <div class="w-full mt-6"></div>
     </div>
 </template>
 
