@@ -35,7 +35,7 @@ export default {
         getYears() {
             let date = this.$moment();
 
-            return date.clone().diff('2019-02-01', 'year');
+            return date.clone().diff('01-01-2019', 'year');
         }
     }
 }

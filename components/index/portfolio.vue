@@ -23,13 +23,46 @@
         </div>
         <div class="grid">
             <div>
+                <a href="https://visitor-dashboard.flexpos.com/">
+<!--                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>-->
+                    <div class="card-bottom px-6 py-4">
+                        <div class="font-bold text-xl">Visitor Dashboard</div>
+                        <span>
+                        <b>Amero</b> - Provides real-time attendance information for an attraction.
+                    </span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="https://event-orders.flexpos.com">
+<!--                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>-->
+                    <div class="card-bottom px-6 py-4">
+                        <div class="font-bold text-xl">Event Orders</div>
+                        <span>
+                        <b>Amero</b> - Organizing of events, Major customer: <a class="text-orange-400 hover:text-orange-500" href="https://legohouse.com">Lego House</a>.
+                    </span>
+                    </div>
+                </a>
+            </div>
+            <div>
+                <a href="https://service-module.flexpos.com">
+<!--                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>-->
+                    <div class="card-bottom px-6 py-4">
+                        <div class="font-bold text-xl">Service Module</div>
+                        <span>
+                        <b>Amero</b> - Assists retail stores in efficiently managing their incoming orders.
+                    </span>
+                    </div>
+                </a>
+            </div>
+            <div>
                 <a href="https://login.flexpos.com/login">
                     <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Backoffice</div>
                         <span>
-                        Flexpos - Backend website for POS systems.
-                    </span>
+                            <b>Flexpos</b> - Backend website for POS systems.
+                        </span>
                     </div>
                 </a>
             </div>
@@ -38,7 +71,9 @@
                     <img class="w-full" src="~/static/images/portfolioImages/profilshop.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Cembrit Roof Calculator</div>
-                        <span>3d-empire - Roof Calculator.</span>
+                        <span>
+                            <b>3d-empire</b> - Roof Calculator.
+                        </span>
                     </div>
                 </a>
             </div>
@@ -48,7 +83,7 @@
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Profilshop Railing Calculator</div>
                         <span>
-                            3d-empire - Railing Calculator.
+                            <b>3d-empire</b> - Railing Calculator.
                         </span>
                     </div>
                 </a>
