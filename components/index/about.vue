@@ -8,7 +8,7 @@
                </div>
                <h2 class="text-4xl font-bold">I am a Full Stack Developer</h2>
                <div>
-                  Download CV · <a download class="text-orange-400 hover:text-orange-500 underline" href="/cvs/CV-Simon-English.pdf">English</a> · <a download class="text-orange-400 hover:text-orange-500 underline" href="/cvs/CV-Simon-Danish.pdf">Danish</a>
+                  Download CV · <a download class="text-orange-400 hover:text-orange-500 underline" href="/cvs/CV-Simon-Hjorthoj-English.pdf">English</a> · <a download class="text-orange-400 hover:text-orange-500 underline" href="/cvs/CV-Simon-Hjorthøj-Danish.pdf">Danish</a>
                </div>
                <div>
                    <a href="#contact" class="btn btn-orange font-bold !rounded-sm">Contact Me</a>
