@@ -1,14 +1,36 @@
-﻿<style>
-#skills-grid {
-    display: grid;
-    & div {
-        background-color: #262626;
-        height: 64px;
-        width: 64px;
-        margin: 0 auto;
-        padding: 8px;
-    }
+﻿<style scoped lang="scss">
 
+/*To whom ever reads this I would normally use css grid but github does not like the tailwind .grid class*/
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-between;
+    & > div {
+        background-color: #262626;
+        height: 64px !important;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1 calc(calc(100% / 8) - 16px);
+
+        & > img {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #skills-grid {
+        justify-content: center;
+
+        & > div {
+            flex: 1 1 calc(calc(100% / 4) - 16px);
+        }
+    }
 }
 </style>
 

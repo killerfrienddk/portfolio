@@ -1,8 +1,13 @@
-﻿<style lang="scss">
+﻿<style scoped lang="scss">
 #portfolio-grid {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 25px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#portfolio-grid > div {
+    flex: 1 1 calc(50% - 25px);
+    box-sizing: border-box;
 }
 
 .card-bottom {
@@ -13,13 +18,12 @@
         font-size: 12px;
     }
 }
+
 @media (max-width: 768px) {
-    #portfolio-grid {
-        grid-template-columns: 1fr;
-        grid-gap: 25px;
+    #portfolio-grid > div {
+        flex: 1 1 100%;
     }
 }
-
 </style>
 
 <template>
@@ -29,7 +33,7 @@
                 <h5 class="text-2xl font-bold text-orange-400">My Portfolio</h5>
             </div>
         </div>
-        <div id="portfolio-grid" class="grid">
+        <div id="portfolio-grid">
             <div>
                 <a href="https://visitor-dashboard.flexpos.com/">
                     <div class="card-bottom px-6 py-4">
@@ -103,6 +107,7 @@
                     </div>
                 </a>
             </div>
+            <div class="empty-placeholder"></div>
         </div>
     </div>
 </template>
