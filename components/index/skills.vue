@@ -1,5 +1,5 @@
 ﻿<style scoped>
-.grid {
+#skills {
     & div {
         background-color: #262626;
         height: 64px;
@@ -9,7 +9,6 @@
     }
 
 }
-
 </style>
 
 <template>
@@ -19,7 +18,7 @@
                 <h5 class="text-2xl font-bold text-orange-400">My Skills</h5>
             </div>
         </div>
-        <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-4">
+        <div id="skills" class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-4">
             <div>
                 <img src="~/static/images/skills/nuxt.webp" loading="lazy"/>
             </div>
@@ -36,7 +35,7 @@
                 <img src="~/static/images/skills/typescript.webp" loading="lazy"/>
             </div>
             <div>
-                <img src="~/static/images/skills/vb.webp" loading="lazy"/>
+                <img src="~/static/images/skills/VB.webp" loading="lazy"/>
             </div>
             <div>
                 <img src="~/static/images/skills/mysql.webp" loading="lazy"/>
