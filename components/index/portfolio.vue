@@ -1,7 +1,8 @@
 ﻿<style scoped lang="scss">
-#portfolio-grid {
+.grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 25px;
+    display: grid;
 }
 
 .card-bottom {
@@ -13,7 +14,7 @@
     }
 }
 @media (max-width: 768px) {
-    #portfolio-grid {
+    .grid {
         grid-template-columns: 1fr;
         grid-gap: 25px;
     }
