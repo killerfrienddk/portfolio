@@ -1,5 +1,5 @@
 ﻿<style scoped lang="scss">
-.grid {
+#portfolio-grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 25px;
 }
@@ -13,7 +13,7 @@
     }
 }
 @media (max-width: 768px) {
-    .grid {
+    #portfolio-grid {
         grid-template-columns: 1fr;
         grid-gap: 25px;
     }
@@ -28,7 +28,7 @@
                 <h5 class="text-2xl font-bold text-orange-400">My Portfolio</h5>
             </div>
         </div>
-        <div class="grid">
+        <div id="portfolio-grid" class="grid">
             <div>
                 <a href="https://visitor-dashboard.flexpos.com/">
                     <div class="card-bottom px-6 py-4">
