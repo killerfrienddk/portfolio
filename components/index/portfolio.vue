@@ -1,5 +1,5 @@
 ﻿<style lang="scss">
-.grid {
+#portfolio-grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 25px;
     display: grid;
@@ -14,7 +14,7 @@
     }
 }
 @media (max-width: 768px) {
-    .grid {
+    #portfolio-grid {
         grid-template-columns: 1fr;
         grid-gap: 25px;
     }

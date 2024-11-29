@@ -1,5 +1,5 @@
 ﻿<style>
-.grid {
+#skills-grid {
     display: grid;
     & div {
         background-color: #262626;
@@ -19,7 +19,7 @@
                 <h5 class="text-2xl font-bold text-orange-400">My Skills</h5>
             </div>
         </div>
-        <div class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-4">
+        <div id="skills-grid" class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-4">
             <div>
                 <img src="~/static/images/skills/nuxt.webp" loading="lazy"/>
             </div>
