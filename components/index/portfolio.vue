@@ -31,7 +31,6 @@
         <div class="grid">
             <div>
                 <a href="https://visitor-dashboard.flexpos.com/">
-<!--                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>-->
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Visitor Dashboard</div>
                         <span>
@@ -42,7 +41,6 @@
             </div>
             <div>
                 <a href="https://skat.dk/erhverv/nye-krav-til-digital-salgsregistrering-for-visse-brancher-i-2024/for-leverandoerer-system-til-digital-salgsregistrering">
-                    <!--                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>-->
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">SAF-T</div>
                         <span>
@@ -53,7 +51,6 @@
             </div>
             <div>
                 <a href="https://event-orders.flexpos.com">
-<!--                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>-->
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Event Orders</div>
                         <span>
@@ -64,7 +61,6 @@
             </div>
             <div>
                 <a href="https://service-module.flexpos.com">
-<!--                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>-->
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Service Module</div>
                         <span>
@@ -75,7 +71,7 @@
             </div>
             <div>
                 <a href="https://login.flexpos.com/login">
-                    <img class="w-full" src="~/static/images/portfolioImages/backoffice.jpg"/>
+                    <img class="w-full" loading="lazy" src="~/static/images/portfolioImages/backoffice.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Backoffice</div>
                         <span>
@@ -86,7 +82,7 @@
             </div>
             <div>
                 <a href="https://profilshop.3dconfig.dk/Default/RailingCalculator?lang=6">
-                    <img class="w-full" src="~/static/images/portfolioImages/profilshop.jpg"/>
+                    <img class="w-full" loading="lazy" src="~/static/images/portfolioImages/profilshop.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Cembrit Roof Calculator</div>
                         <span>
@@ -97,7 +93,7 @@
             </div>
             <div>
                 <a href="https://cb.3dconfig.dk/">
-                    <img class="w-full" src="~/static/images/portfolioImages/cembrit.jpg"/>
+                    <img class="w-full" loading="lazy" src="~/static/images/portfolioImages/cembrit.jpg"/>
                     <div class="card-bottom px-6 py-4">
                         <div class="font-bold text-xl">Profilshop Railing Calculator</div>
                         <span>

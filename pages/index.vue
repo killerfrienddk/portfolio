@@ -2,6 +2,7 @@
     <div>
         <about/>
         <resume/>
+        <skills/>
         <portfolio/>
         <contact/>
         <copyright/>
@@ -12,13 +13,14 @@
 <script lang="ts">
 import About from "~/components/index/about.vue";
 import Resume from "~/components/index/resume.vue";
+import Skills from "~/components/index/skills.vue";
 import Portfolio from "~/components/index/portfolio.vue";
 import Contact from "~/components/index/contact.vue";
 import Copyright from "~/components/index/copyright.vue";
 
 export default {
     name: "index",
-    components: {Copyright, Contact, Portfolio, Resume, About},
+    components: {About, Resume, Skills, Portfolio, Contact, Copyright},
     layout: "default-layout",
 }
 </script>
