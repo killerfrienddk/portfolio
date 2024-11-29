@@ -1,4 +1,4 @@
-﻿<style scoped lang="scss">
+﻿<style lang="scss">
 .grid {
     grid-template-columns: 1fr 1fr;
     grid-gap: 25px;
