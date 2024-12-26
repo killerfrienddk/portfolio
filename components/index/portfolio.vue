@@ -34,79 +34,19 @@
             </div>
         </div>
         <div id="portfolio-grid">
-            <div>
-                <a href="https://visitor-dashboard.flexpos.com/">
-                    <div class="card-bottom px-6 py-4">
-                        <div class="font-bold text-xl">Visitor Dashboard</div>
-                        <span>
-                        <b>Amero</b> - Provides real-time attendance information for an attraction.
-                    </span>
-                    </div>
-                </a>
-            </div>
-            <div>
-                <a href="https://skat.dk/erhverv/nye-krav-til-digital-salgsregistrering-for-visse-brancher-i-2024/for-leverandoerer-system-til-digital-salgsregistrering">
-                    <div class="card-bottom px-6 py-4">
-                        <div class="font-bold text-xl">SAF-T</div>
-                        <span>
-                        <b>Amero</b> - Created the system for the new laws from the danish government.
-                    </span>
-                    </div>
-                </a>
-            </div>
-            <div>
-                <a href="https://event-orders.flexpos.com">
-                    <div class="card-bottom px-6 py-4">
-                        <div class="font-bold text-xl">Event Orders</div>
-                        <span>
-                        <b>Amero</b> - Organizing of events, Major customer: <a class="text-orange-400 hover:text-orange-500" href="https://legohouse.com">Lego House</a>.
-                    </span>
-                    </div>
-                </a>
-            </div>
-            <div>
-                <a href="https://service-module.flexpos.com">
-                    <div class="card-bottom px-6 py-4">
-                        <div class="font-bold text-xl">Service Module</div>
-                        <span>
-                        <b>Amero</b> - Assists retail stores in efficiently managing their incoming orders.
-                    </span>
-                    </div>
-                </a>
-            </div>
-            <div>
-                <a href="https://login.flexpos.com/login">
-                    <img class="w-full" loading="lazy" src="~/static/images/portfolioImages/backoffice.jpg"/>
-                    <div class="card-bottom px-6 py-4">
-                        <div class="font-bold text-xl">Backoffice</div>
-                        <span>
-                            <b>Flexpos</b> - Backend website for POS systems.
-                        </span>
-                    </div>
-                </a>
-            </div>
-            <div>
-                <a href="https://profilshop.3dconfig.dk/Default/RailingCalculator?lang=6">
-                    <img class="w-full" loading="lazy" src="~/static/images/portfolioImages/profilshop.jpg"/>
-                    <div class="card-bottom px-6 py-4">
-                        <div class="font-bold text-xl">Cembrit Roof Calculator</div>
-                        <span>
-                            <b>3d-empire</b> - Roof Calculator.
-                        </span>
-                    </div>
-                </a>
-            </div>
-            <div>
-                <a href="https://cb.3dconfig.dk/">
-                    <img class="w-full" loading="lazy" src="~/static/images/portfolioImages/cembrit.jpg"/>
-                    <div class="card-bottom px-6 py-4">
-                        <div class="font-bold text-xl">Profilshop Railing Calculator</div>
-                        <span>
-                            <b>3d-empire</b> - Railing Calculator.
-                        </span>
-                    </div>
-                </a>
-            </div>
+            <template v-for="project in projects">
+                <div>
+                    <a :href="project.link">
+                        <img v-if="project.image" class="w-full" loading="lazy" :src="project.image"/>
+                        <div class="card-bottom px-6 py-4">
+                            <div class="font-bold text-xl">{{ project.name }}</div>
+                            <span>
+                                <b>{{ project.company }}</b><span v-html="project.description"></span>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </template>
             <div class="empty-placeholder"></div>
         </div>
     </div>
@@ -115,5 +55,57 @@
 <script lang="ts">
 export default {
     name: "portfolio",
+    data() {
+        return {
+            projects: [
+                {
+                    link: "https://visitor-dashboard.flexpos.com",
+                    name: "Visitor Dashboard",
+                    company: "Amero",
+                    description: " - Provides real-time attendance information for an attraction."
+                },
+                {
+                    link: "https://skat.dk/erhverv/nye-krav-til-digital-salgsregistrering-for-visse-brancher-i-2024/for-leverandoerer-system-til-digital-salgsregistrering",
+                    name: "SAF-T - Anti Whitewashing System",
+                    company: "Amero",
+                    description: " - A system for the prevention of whitewashing."
+                },
+                {
+                    link: "https://event-orders.flexpos.com",
+                    name: "Event Orders",
+                    company: "Amero",
+                    description: ' - Organizing of events, Major customer: <a class="text-orange-400 hover:text-orange-500" href="https://legohouse.com">Lego House</a>.'
+                },
+                {
+                    link: "https://service-module.flexpos.com",
+                    name: "Service Module",
+                    company: "Amero",
+                    description: " - Assists retail stores in efficiently managing their incoming orders."
+                },
+                {
+                    link: "https://login.flexpos.com/login",
+                    image: "/images/portfolioImages/backoffice.jpg",
+                    name: "Backoffice",
+                    company: "Flexpos",
+                    description: " - Backend website for POS systems."
+                },
+                {
+                    link: "https://swisspearl.3dconfig.dk/",
+                    image: "/images/portfolioImages/cembrit.jpg",
+                    name: "Swisspearl Roof Calculator",
+                    company: "3d-empire",
+                    description: " - Roof Calculator."
+                },
+                {
+                    link: "https://profilshop.3dconfig.dk/Default/RailingCalculator?lang=6",
+                    image: "/images/portfolioImages/profilshop.jpg",
+                    name: "Profilshop Railing Calculator",
+                    company: "3d-empire",
+                    description: " - Railing Calculator."
+                },
+
+            ],
+        }
+    }
 }
 </script>
