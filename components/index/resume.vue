@@ -10,7 +10,8 @@
             </div>
             <div class="md:w-2/5 w-full">
                 <timeline>
-                    <timeline-point start-date="12-04-2023" :date-moment="true" title="Full Stack Developer" detail="Amero ApS · Full-time · Hybrid"/>
+                    <timeline-point start-date="01-04-2025" :date-moment="true" title="Full Stack Developer" detail="IT Forum Gruppen A/S · Full-time · Hybrid"/>
+                    <timeline-point start-date="12-04-2023" end-date="01-04-2025" :date-moment="true" title="Full Stack Developer" detail="Amero ApS · Full-time · Hybrid"/>
                     <timeline-point start-date="10-06-2021" end-date="12-04-2023" :date-moment="true" title="Full Stack Developer(Merged with Amero)" detail="FlexPOS ApS · Full-time · Hybrid"/>
                     <timeline-point start-date="03-01-2019" end-date="06-01-2021" :date-moment="true" title="Apprentice Developer" detail="3d-empire A/S · Apprenticeship"/>
                 </timeline>
