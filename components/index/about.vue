@@ -1,7 +1,7 @@
 ﻿<template>
     <panel-component id="about" padding="null">
        <div class="flex justify-between">
-           <div class="md:w-1/2 w-full p-7 space-y-5">
+           <div class="md:w-1/2 w-full p-7 space-y-2">
                <h5 class="text-2xl font-bold text-orange-400">About Me</h5>
                <div class="w-full md:hidden block">
                    <img class="w-full" loading="lazy" src="~/static/images/myResume.jpg"/>

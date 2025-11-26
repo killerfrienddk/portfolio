@@ -4,7 +4,7 @@
             <h5 class="text-2xl font-bold text-orange-400">My Resume</h5>
         </div>
         <div class="flex md:flex-row flex-col space-y-8">
-            <div class="md:w-3/5 w-full space-y-5">
+            <div class="md:w-3/5 w-full space-y-2">
                 <h5 class="text-1xl font-extralight text-yellow-600">EXPERIENCE</h5>
                 <h2 class="text-3xl sm:text-4xl font-bold">More than {{getYears()}} years <span class="block clear-both"></span> experience as a <span class="block clear-both"></span><span class="text-orange-400">Software Developer</span></h2>
             </div>
