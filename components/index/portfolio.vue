@@ -2,7 +2,7 @@
 #portfolio-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 16px;
 }
 
 #portfolio-grid > div {
@@ -36,9 +36,9 @@
         <div id="portfolio-grid">
             <template v-for="project in projects">
                 <div>
-                    <a :href="project.link">
-                        <img v-if="project.image" class="w-full" loading="lazy" :src="project.image"/>
-                        <div class="card-bottom px-6 py-4">
+                    <a :href="project.link" target="_blank">
+                        <img v-if="project.image" class="bg-cover lg:h-[260px] " loading="lazy" :src="project.image"/>
+                        <div class="card-bottom p-4">
                             <div class="font-bold text-xl">{{ project.name }}</div>
                             <span>
                                 <b>{{ project.company }}</b><span v-html="project.description"></span>
@@ -91,7 +91,7 @@ export default {
                 },
                 {
                     link: "https://swisspearl.3dconfig.dk/",
-                    image: "/images/portfolioImages/cembrit.jpg",
+                    image: "/images/portfolioImages/swisspearl.jpg",
                     name: "Swisspearl Roof Calculator",
                     company: "3d-empire",
                     description: " - Roof Calculator."

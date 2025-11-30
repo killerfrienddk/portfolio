@@ -42,28 +42,28 @@
             </div>
         </div>
         <div id="skills-grid" class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-4">
-            <div>
+            <div title="Nuxt">
                 <img src="~/static/images/skills/nuxt.webp" loading="lazy"/>
             </div>
-            <div>
+            <div title="Vue">
                 <img src="~/static/images/skills/vue.webp" loading="lazy"/>
             </div>
-            <div>
+            <div title="Blazor">
                 <img src="~/static/images/skills/blazor.webp" loading="lazy"/>
             </div>
-            <div>
+            <div title=".net">
                 <img src="~/static/images/skills/dotnet.webp" loading="lazy"/>
             </div>
-            <div>
+            <div title="Typescript">
                 <img src="~/static/images/skills/typescript.webp" loading="lazy"/>
             </div>
-            <div>
+            <div title="VB">
                 <img src="~/static/images/skills/VB.webp" loading="lazy"/>
             </div>
-            <div>
+            <div title="Mysql">
                 <img src="~/static/images/skills/mysql.webp" loading="lazy"/>
             </div>
-            <div>
+            <div title="Mssql">
                 <img src="~/static/images/skills/mssql.webp" loading="lazy"/>
             </div>
         </div>
