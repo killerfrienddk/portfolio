@@ -5,7 +5,7 @@
         <skills/>
         <portfolio/>
         <copyright/>
-        <div class="w-full mt-6"></div>
+        <div class="w-full mt-7"></div>
     </div>
 </template>
 
