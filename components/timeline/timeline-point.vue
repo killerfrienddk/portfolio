@@ -53,10 +53,10 @@ export default {
         },
     },
     methods: {
-        getDates(date) {
+        getDates(date: any) {
             return this.$moment(date).format("MMM YYYY");
         },
-        getDatesCustom(startDate, endDate) {
+        getDatesCustom(startDate: any, endDate: any) {
             const newStartDate = this.$moment(startDate);
             const newEndDate = this.$moment(endDate || this.$moment()).add(1, 'month').endOf('month');
             const duration = this.$moment.duration(newEndDate.diff(newStartDate));
@@ -64,10 +64,10 @@ export default {
             const years = duration.years();
             const months = duration.months();
 
-            let date;
+            let date: string;
             if (years === 0) date = months + ' mos';
             else {
-                date = years + ' yr ';
+                date = `${years} yr${(years > 1) ? "s" : ""} `;
                 if (months != 0) date += months + ' mos';
             }
 
