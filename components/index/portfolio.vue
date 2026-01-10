@@ -37,11 +37,11 @@
             <template v-for="project in projects">
                 <div>
                     <a :href="project.link" target="_blank">
-                        <img v-if="project.image" class="bg-cover lg:h-[260px] " loading="lazy" :src="project.image"/>
+                        <img v-if="project.image" :src="project.image" class="bg-cover lg:h-[260px]" loading="lazy"/>
                         <div class="card-bottom p-4">
                             <div class="font-bold text-xl">{{ project.name }}</div>
                             <span>
-                                <b>{{ project.company }}</b><span v-html="project.description"></span>
+                                <b>{{ project.company }}</b> - <span v-html="project.description"></span>
                             </span>
                         </div>
                     </a>
@@ -59,49 +59,61 @@ export default {
         return {
             projects: [
                 {
+                    link: "#",
+                    name: "Bankrupt integration",
+                    company: "IT Forum Gruppen",
+                    description: "Searches the Danish government’s API for recently bankrupted companies."
+                },
+                {
+                    link: "#",
+                    name: "Service Portal",
+                    company: "IT Forum Gruppen",
+                    description: "Reduced our IT support workload by automating repetitive tasks, saving many hours every week."
+                },
+                {
                     link: "https://visitor-dashboard.flexpos.com",
                     name: "Visitor Dashboard",
                     company: "Amero",
-                    description: " - Provides real-time attendance information for an attraction."
+                    description: "Provides real-time attendance information for an attraction."
                 },
                 {
                     link: "https://skat.dk/erhverv/nye-krav-til-digital-salgsregistrering-for-visse-brancher-i-2024/for-leverandoerer-system-til-digital-salgsregistrering",
                     name: "SAF-T - Anti Whitewashing System",
                     company: "Amero",
-                    description: " - A system for the prevention of whitewashing."
+                    description: "A system for the prevention of whitewashing."
                 },
                 {
                     link: "https://event-orders.flexpos.com",
                     name: "Event Orders",
                     company: "Amero",
-                    description: ' - Organizing of events, Major customer: <a class="text-orange-400 hover:text-orange-500" href="https://legohouse.com">Lego House</a>.'
+                    description: 'Organizing of events, Major customer: <a class="text-orange-400 hover:text-orange-500" href="https://legohouse.com">Lego House</a>.'
                 },
                 {
                     link: "https://service-module.flexpos.com",
                     name: "Service Module",
                     company: "Amero",
-                    description: " - Assists retail stores in efficiently managing their incoming orders."
+                    description: "Assists retail stores in efficiently managing their incoming orders."
                 },
                 {
                     link: "https://login.flexpos.com/login",
                     image: "/images/portfolioImages/backoffice.jpg",
                     name: "Backoffice",
                     company: "Flexpos",
-                    description: " - Backend website for POS systems."
+                    description: "Backend website for POS systems."
                 },
                 {
                     link: "https://swisspearl.3dconfig.dk/",
                     image: "/images/portfolioImages/swisspearl.jpg",
                     name: "Swisspearl Roof Calculator",
                     company: "3d-empire",
-                    description: " - Roof Calculator."
+                    description: "Roof Calculator."
                 },
                 {
                     link: "https://profilshop.3dconfig.dk/Default/RailingCalculator?lang=6",
                     image: "/images/portfolioImages/profilshop.jpg",
                     name: "Profilshop Railing Calculator",
                     company: "3d-empire",
-                    description: " - Railing Calculator."
+                    description: "Railing Calculator."
                 },
 
             ],

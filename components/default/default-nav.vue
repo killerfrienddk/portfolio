@@ -20,6 +20,10 @@ ul {
         &:last-child {
             padding-right: 0;
         }
+
+        > a {
+            font-size: 14px;
+        }
     }
 }
 </style>
