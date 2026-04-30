@@ -1,0 +1,27 @@
+﻿@import "node_modules/@fortawesome/fontawesome-svg-core/styles.css";
+@import "./components/tailwind";
+@import "./components/buttons";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #212121 !important;
+    color: white;
+}
+
+.btn-orange {
+    background-image: linear-gradient(to right, #fb923c, #ea580c, #ef4444);
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgb(255 255 255 / 1);
+    &:hover {
+        background-image: linear-gradient(to right, #fb923c, #fb923c, #fb923c);
+    }
+}
