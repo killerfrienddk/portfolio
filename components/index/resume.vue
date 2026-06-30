@@ -10,7 +10,7 @@
             </div>
             <div class="md:w-2/5 w-full">
                 <timeline>
-<!--                <timeline-point start-date="02-03-2026" :date-moment="true" title="Full Stack Developer" detail="ExpandIT · Full-time · Hybrid"/>-->
+                    <timeline-point start-date="01-09-2026" :date-moment="true" title="Full Stack Developer" detail="Unit4 · Full-time · Remote"/>
                     <timeline-point start-date="02-03-2026" end-date="05-30-2026" :date-moment="true" title="Full Stack Developer" detail="ExpandIT · Full-time · Hybrid"/>
                     <timeline-point start-date="04-01-2025" end-date="02-03-2026" :date-moment="true" title="Full Stack Developer" detail="IT Forum Gruppen A/S · Full-time · Hybrid"/>
                     <timeline-point start-date="12-04-2023" end-date="04-01-2025" :date-moment="true" title="Full Stack Developer" detail="Amero ApS · Full-time · Hybrid"/>
