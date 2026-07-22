@@ -44,7 +44,7 @@
         <div id="skills-grid" class="grid grid-cols-4 sm:grid-cols-4 md:grid-cols-8 gap-4">
             <template v-for="skill in skills">
                 <div :title="skill">
-                    <img :src="'/images/skills/' + skill + '.webp'" loading="lazy"/>
+                    <img :src="'/images/skills/' + skill.toString().toLowerCase() + '.webp'" loading="lazy"/>
                 </div>
             </template>
         </div>
