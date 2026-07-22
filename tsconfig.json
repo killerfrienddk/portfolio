@@ -1,38 +1,18 @@
 {
-    "compilerOptions": {
-        "target": "ES2020",
-        "module": "ESNext",
-        "moduleResolution": "Node",
-        "lib": [
-            "ESNext",
-            "ESNext.AsyncIterable",
-            "DOM"
-        ],
-        "esModuleInterop": true,
-        "allowJs": true,
-        "sourceMap": true,
-        "noEmit": true,
-        "experimentalDecorators": true,
-        "baseUrl": ".",
-        "paths": {
-            "~/*": [
-                "./*"
-            ],
-            "@/*": [
-                "./*"
-            ]
-        },
-        "types": [
-            "@nuxt/vue-app",
-            "@nuxt/types",
-            "@nuxtjs/moment",
-            "@types/node",
-        ]
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "files": [],
+  "references": [
+    {
+      "path": "./.nuxt/tsconfig.app.json"
     },
-    "exclude": [
-        "node_modules",
-        ".nuxt",
-        ".idea",
-        "dist"
-    ]
+    {
+      "path": "./.nuxt/tsconfig.server.json"
+    },
+    {
+      "path": "./.nuxt/tsconfig.shared.json"
+    },
+    {
+      "path": "./.nuxt/tsconfig.node.json"
+    }
+  ]
 }
