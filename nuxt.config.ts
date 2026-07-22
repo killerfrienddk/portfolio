@@ -1,68 +1,38 @@
-export default {
-    // Global page headers: https://go.nuxtjs.dev/config-head
-    target: 'static',
-    server: {
-        host: (process.env.NODE_ENV === 'production' ? '0.0.0.0' : '127.0.0.1')
-    },
-    head: {
-        title: 'Portfolio',
-        htmlAttrs: {
-            lang: 'en'
-        },
-        meta: [
-            {charset: 'utf-8'},
-            {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-            {hid: 'description', name: 'description', content: ''},
-            {name: 'format-detection', content: 'telephone=no'}
-        ],
-        link: [
-            {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
-        ]
-    },
+// https://nuxt.com/docs/api/configuration/nuxt-config
 
-    // Global CSS: https://go.nuxtjs.dev/config-css
-    css: [
-        '~/static/styles/main.scss',
-    ],
+import tailwindcss from "@tailwindcss/vite";
 
-    // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-    plugins: [
-        {src: '~/plugins/constants.ts'},
-        {src: '~/plugins/guid.ts'},
-    ],
-
-    // Auto import components: https://go.nuxtjs.dev/config-components
-    components: true,
-
-    // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-    buildModules: [
-        // https://go.nuxtjs.dev/typescript
-        '@nuxt/typescript-build',
-        '@nuxt/postcss8',
-        '@nuxtjs/composition-api/module',
-    ],
-
-    // Modules: https://go.nuxtjs.dev/config-modules
+export default defineNuxtConfig({
     modules: [
-        'google-fonts',
-        '@nuxtjs/moment'
+        'dayjs-nuxt',
+        '@vesp/nuxt-fontawesome',
     ],
-    googleFonts: {
-        families: {
-            Roboto: true
+    components: [
+        {path: '~/components', extensions: ['vue']},
+        {path: '~/components/core', extensions: ['vue']},
+        {path: '~/components/index', extensions: ['vue']},
+        {path: '~/components/timeline', extensions: ['vue']},
+    ],
+    css: ['~/assets/styles/main.css'],
+    dayjs: {
+        plugins: ['relativeTime', 'utc', 'duration'],
+    },
+    vite: {
+        plugins: [
+            tailwindcss(),
+        ],
+        optimizeDeps: {
+            include: [
+                '@vue/devtools-core',
+                '@vue/devtools-kit',
+                'dayjs',
+                'dayjs/plugin/relativeTime',
+                'dayjs/plugin/updateLocale',
+                'dayjs/plugin/duration',
+                'dayjs/plugin/utc',
+            ]
         }
     },
-
-    // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {
-        postcss: {
-            plugins: {
-                tailwindcss: {},
-                autoprefixer: {}
-            }
-        },
-        babel: {
-            compact: process.env.NODE_ENV === 'production',
-        },
-    },
-}
+    compatibilityDate: '2025-07-15',
+    devtools: {enabled: true}
+})
