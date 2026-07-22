@@ -14,8 +14,8 @@ jobs:
         with:
           node-version: "24"
       # Pick your own package manager and build script
-      - run: bun install
-      - run: bunx nuxt build --preset github_pages
+      - run: npm install
+      - run: NUXT_APP_BASE_URL=/portfolio/ npmx nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
